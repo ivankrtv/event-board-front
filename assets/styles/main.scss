@@ -1,0 +1,17 @@
+//@import "fonts";
+@font-face {
+  font-family: "FuturaBookC";
+  font-style: normal;
+  font-weight: 400;
+  src: local("FuturaBookC"),
+  url("../fonts/futura/FuturaBookC.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "FuturaDemiC";
+  font-style: normal;
+  font-weight: 400;
+  src: local("FuturaDemiC"),
+  url("../fonts/futura/FuturaDemiC.ttf") format("ttf");
+}
+@import "variables";
