@@ -43,6 +43,9 @@
   color: $white-color;
   font-size: 1.125rem;
   transition: box-shadow .2s ease-out;
+	&:focus {
+		outline: none;
+	}
 
   &--primary {
     background-color: $primary-color;

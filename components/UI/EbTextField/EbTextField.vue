@@ -37,6 +37,7 @@ const onInput = (event: InputEvent) => {
 	flex-grow: 1;
   border: none;
   outline: none;
+	background-color: transparent;
 
   color: $primary-text-color;
   font-size: 1.125rem;
