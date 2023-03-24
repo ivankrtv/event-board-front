@@ -114,6 +114,7 @@ const onOutsideClick = () => isOpen.value = false;
     background-color: $primary-background-color;
     overflow-y: scroll;
     list-style: none;
+		z-index: 2;
 
 		&::-webkit-scrollbar-track {
 			border-top-right-radius: 15px;
