@@ -1,11 +1,13 @@
 <template>
-  <h1 class="header">Home</h1>
+  <div>
+    <h1 class="header">
+      Home
+    </h1>
+  </div>
 </template>
 
-<script>
-export default {
-  name: 'index'
-};
+<script setup lang="ts">
+
 </script>
 
 <style lang="scss" scoped>

@@ -40,3 +40,16 @@ npm run preview
 ```
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+
+## UI kit playground
+
+Для просмотра компонентов UI кита нужно выполнить следующее:
+
+```bash
+npm install
+npm run dev
+```
+
+В браузере открыть страницу http://localhost:3000/playground
+
+

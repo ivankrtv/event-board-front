@@ -5,9 +5,12 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "lint": "eslint ."
   },
   "devDependencies": {
+    "@nuxt/eslint-config": "^0.1.1",
+    "eslint": "^8.36.0",
     "nuxt": "^3.3.1",
     "sass": "^1.59.3"
   },
@@ -16,6 +19,7 @@
   },
   "dependencies": {
     "@pinia/nuxt": "^0.4.7",
+    "click-outside-vue3": "^4.0.1",
     "pinia": "^2.0.33"
   }
 }
